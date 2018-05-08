@@ -2,6 +2,6 @@
 
 ## Directories
 
-### `stan`
+### `pymc`
 
-Attempts at implementing simple phylogenetic models in Stan. 
+Attempts at implementing simple phylogenetic models in Theano/PyMC. 
