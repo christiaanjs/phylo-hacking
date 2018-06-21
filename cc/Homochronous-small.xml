@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" required="BEAST v2.5.0:BDSKY v1.4.0" version="2.5">
+
+
+    <data id="Influenza-short" name="alignment">
+                    <sequence id="seq_CY068129_A_California_VRDL396_2009_2009/04/28" taxon="CY068129_A_California_VRDL396_2009_2009/04/28" totalcount="4" value="TAATTCTATTAACCATGAAGACTATCATTGCTTTGAGCTACATTCTATGTCTGGTTTTCGCTCAAAAACTTCCTGGAAATGACAACAGCACGGCAACRCTGTGCCTTGGGCACCATGCAGTACCAAATGGAACGATAGTGAAAACAATCACGAATGACCAAATTGAAGTTACTAATGCTACTGAGCTGGTTCAGAGTTCCTCAACAGGTGAAATATGCGACAGTCCTCATCAGATCCTTGATGGAAAAAACTGCACACTAATAGATGCTCTATTGGGAGACCCTCAGTGTGATGGCTTCCAAAATAAGAAATGGGACCTTTTTGTTGAACGCAGCAAAGCCTACAGCAACTGTTACCCTTATGATGTGCCGGATTATGCCTCCCTTAGGTCACTAGTTGCCTCATCCGGCACACTGGAGTTTAACAATGAAAGCTTCAATTGGACTGGAGTCACTCAAAACGGAACAAGCTCTGCTTGCATAAGGAGATCTAAAAACAGTTTCTTTAGTAGATTGAATTGGTTGACCCACTTAAACTTCAAATACCCAGCATTGAACGTGACTATGCCAAACAATGAACAATTTGACAAATTGTACATTTGGGGGGTTCACCACCCGGGTACGGACAAAGACCAAATCTTCCTGTATGCTCAAGCATCAGGAAGAATCACAGTCTCTACCAAAAGAAGCCAACAAACTGTAATCCCGAATATCGGATCTAGACCCAGAGTAAGGAATATCCCTAGCAGAATAAGCATCTATTGGACAATAGTAAAACCGGGAGACATACTTTTGATTAACAGCACAGGGAATCTAATTGCTCCTAGGGGTTACTTCAAAATACGAAGTGGGAAAAGCTCAATAATGAGATCAGATGCACCCATTGGCAAATGCAATTCTGAATGCATCACTCCAAATGGAAGCATTCCCAATGACAAACCATTCCAAAATGTAAACAGGATCACATACGGGGCCTGTCCCAGATATGTTAAGCAAAACACTCTGAAATTGGCAACAGGGATGCGAAATGTACCAGAGAAACAAACTAGAGGCATATTTGGCGCAATCGCGGGTTTCATAGAAAATGGTTGGGAGGGAATGGTGGATGGTTGGTACGGTTTCAGGCATCAAAATTCTGAGGGAAGAGGACAAGCAGCAGATCTCAAAAGCACTCAAGCAGCAATCGATCAAATCAATGGGAAGCTGAATAGATTGATCGGGAAAACCAACGAGAAATTCCATCAGATTGAAAAAGAATTCTCAGAAGTTGAAGGGAGAATTCAGGACCTTGAGAAATATGTTGAGGACACTAAAATAGATCTCTGGTCATACAACGCGGAGCTTCTTGTTGCCCTGGAGAACCAACATACAATTGATCTAACTGACTCAGAAATGAACAAACTGTTTGAAAAAACAAAGAAGCAACTGAGGGAAAATGCTGAGGATATGGGCAATGGTTGTTTCAAAATATACCACAAATGTGACAATGCCTGCATAGGATCAATCAGAAATGGAACTTATGACCACGATGTATACAGAGATGAAGCATTAAACAACCGGTTTCAGATCAAGGGAGTTGAGCTGAAGTCAGGGTACAAAGATTGGATCCTATGGATTTCCTTTGCCATATCATGTTTTTTGCTTTGTGTTGCTTTGTTGGGGTTCATCATGTGGGCCTGCCAAAAAGGCAACATTAGGTGCAACATTTGCATTTGAGTGCATTAA-----------"/>
+                    <sequence id="seq_CY068137_A_California_VRDL159_2009_2009/04/28" taxon="CY068137_A_California_VRDL159_2009_2009/04/28" totalcount="4" value="TAATTCTATTAACCATGAAGACTATCATTGCTTTGAGCTACATTCTATGTCTGGTTTTCGCTCAAAAACTTCCTGGAAATGACAACAGCACGGCAACGCTGTGCCTTGGGCACCATGCAGTACCAAACGGAACGATAGTGAAAACAATCACGAATGACCAAATTGAAGTTACTAATGCTACTGAGCTGGTTCAGAGTTCCTCAACAGGTGAAATATGCGACAGTCCTCATCAGATCCTTGATGGAAAAAACTGCACACTAATAGATGCTCTATTGGGAGACCCTCAGTGTGATGGCTTCCAAAATAAGAAATGGGACCTTTTTGTTGAACGCAGCAAAGCCTACAGCAACTGTTACCCTTATGATGTGCCGGATTATGCCTCCCTTAGGTCACTAGTTGCCTCATCCGGCACACTGGAGTTTAACAATGAAAGCTTCAATTGGACTGGAGTCACTCAAAACGGAACAAGCTCTGCTTGCATAAGGAGATCTAAAAACAGTTTCTTTAGTAGATTGAATTGGTTGACCCACTTAAACTTCAAATACCCAGCATTGAACGTGACTATGCCAAACAATGAACAATTTGACAAATTGTACATTTGGGGGGTTCACCACCCGGGTACGGACAAAGACCAAATCTTCCTGTATGCTCAAGCATCAGGAAGAATCACAGTCTCTACCAAAAGAAGCCAACAAACTGTAATCCCGAATATCGGATCTAGACCCAGAGTAAGGAATATCCCTAGCAGAATAAGCATCTATTGGACAATAGTAAAACCGGGAGACATACTTTTGATTAACAGCACAGGGAATCTAATTGCTCCTAGGGGTTACTTCAAAATACGAAGTGGGAAAAGCTCAATAATGAGATCAGATGCACCCATTGGCAAATGCAATTCTGAATGCATCACTCCAAATGGAAGCATTCCCAATGACAAACCATTCCAAAATGTAAACAGGATCACATACGGGGCCTGTCCCAGATATGTTAAGCAAAGCACTCTGAAATTGGCAACAGGGATGCGAAATGTACCAGAGAAACAAACTAGAGGCATATTTGGCGCAATCGCGGGTTTCATAGAAAATGGTTGGGAGGGAATGGTGGATGGTTGGTACGGTTTCAGGCATCAAAATTCTGAGGGAAGAGGACAAGCAGCAGATCTCAAAAGCACTCAAGCAGCAATCGATCAAATCAATGGGAAGCTGAATAGATTGATCGGGAAAACCAACGAGAAATTCCATCAGATTGAAAAAGAATTCTCAGAAGTCGAAGGGAGAATTCAGGACCTTGAGAAATATGTTGAGGACACTAAAATAGATCTCTGGTCATACAACGCGGAGCTTCTTGTTGCCCTGGAGAACCAACATACAATTGATCTAACTGACTCAGAAATGAACAAACTGTTTGAAAAAACAAAGAAGCAACTGAGGGAAAATGCTGAGGATATGGGCAATGGTTGTTTCAAAATATACCACAAATGTGACAATGCCTGCATAGGATCAATCAGAAATGGAACTTATGACCACGATGTATACAGAGATGAAGCATTAAACAACCGGTTTCAGATCAAGGGAGTTGAGCTGAAGTCAGGGTACAAGGATTGGATCCTATGGATTTCCTTTGCCATATCATGTTTTTTGCTTTGTGTTGCTTTGTTGGGGTTCATCATGTGGGCCTGCCAAAAAGGCAACATTAGGTGCAACATTTGCATTTGAGTGCATTAATTAAAAACACC"/>
+                    <sequence id="seq_CY068686_A_California_VRDL181_2009_2009/04/28" taxon="CY068686_A_California_VRDL181_2009_2009/04/28" totalcount="4" value="TAATTCTATTAACCATGAAGACTATCATTGCTTTGAGCTACATTCTATGTCTGGTTTTCGCTCAAAAACTTCCTGGAAATGACAACAGCACGGCAACGCTGTGCCTTGGGCACCATGCAGTACCAAACGGAACGATGGTGAAAACAATCACGAATGACCAAATTGAAGTTACTAATGCTACTGAGCTGGTTCAGAGTTCCTCAACAGGTGAAATATGCGACAGTCCTCATCAGATCCTTGATGGAAAAAACTGCACACTAATAGATGCTCTATTGGGAGACCCTCAGTGTGATGGCTTCCAAAATAAGAAATGGGACCTTTTTGTTGAACGCAGCAAAGCCTACAGCAACTGTTACCCTTATGATGTGCCGGATTATGCCTCCCTTAGGTCACTAGTTGCCTCATCCGGCACACTGGAGTTTAACAATGAAAGCTTCAATTGGACTGGAGTCACTCAAAACGGAACAAGCTCTGCTTGCATAAGGAGATCTAAAAACAGTTTCTTTAGTAGATTGAATTGGTTGACCCACTTAAACTTCAAATACCCAGCATTGAACGTGACTATGCCAAACAATGAACAATTTGACAAATTGTACATTTGGGGGGTTCACCACCCGGGTACGGACAAAGACCAAATCTTCCTGTATGCTCAAGCATCAGAAAGAATCACAGTCTCTACCAAAAGAAGCCAACAAACTGTAATCCCGAATATCGGATCTAGACCCAGAGTAAGGAATATCCCTAGCAGAATAAGCATCTATTGGACAATAGTAAAACCGGGAGACATACTTTTGATTAACAGCACAGGGAATCTAATTGCTCCTAGGGGTTACTTCAAAATACGAAGTGGGAAAAGCTCAATAATGAGATCAGATGCACCCATTGGCAAATGCAATTCTGAATGCATCACTCCAAATGGAAGCATTCCCAATGACAAACCATTCCAAAATGTAAACAGGATCACATACGGGGCCTGTCCCAGATATGTTAAGCAAAGCACTCTGAAATTGGCAACAGGGATGCGAAATGTACCAGAGAAACAAACTAGAGGCATATTTGGCGCAATCGCGGGTTTCATAGAAAATGGTTGGGAGGGAATGGTGGATGGTTGGTACGGTTTCAGGCATCAAAATTCTGAGGGAAGAGGACAAGCAGCAGATCTCAAAAGCACTCAAGCAGCAATCGATCAAATCAATGGGAAGCTGAATAGATTGATCGGGAAAACCAACGAGAAATTCCATCAGATTGAAAAAGAATTCTCAGAAGTCGAAGGGAGAATTCAGGACCTTGAGAAATATGTTGAGGACACTAAAATAGATCTCTGGTCATACAACGCGGAGCTTCTTGTTGCCCTGGAGAACCAACATACAATTGATCTAACTGACTCAGAAATGAACAAACTGTTTGAAAAAACAAAGAAGCAACTGAGGGAAAATGCTGAGGATATGGGCAATGGTTGTTTCAAAATATACCACAAATGTGACAATGCCTGCATAGGATCAATCAGAAATGGAACTTATGACCACGATGTATACAGAGATGAAGCATTAAACAACCGGTTTCAGATCAAGGGAGTTGAGCTGAAGTCAGGGTACAAGGATTGGATCCTATGGATTTCCTTTGCCATATCATGTTTTTTGCTTTGTGTTGCTTTGTTGGGGTTCATCATGTGGGCCTGCCAAAAAGGCAACATTAGGTGCAACATTTGCATTTGAGTGCATTAATTAAAAA----"/>
+                    <sequence id="seq_CY068870_A_California_VRDL392_2009_2009/04/28" taxon="CY068870_A_California_VRDL392_2009_2009/04/28" totalcount="4" value="TAATTCTATTAACCATGAAGACTATCATTGCTTTGAGCTACATTCTATGTCTGGTTTTCGCTCAAAAACTTCCTGGAAATGACAACAGCACGGCAACGCTGTGCCTTGGGCACCATGCAGTACCAAACGGAACGATAGTGAAAACAATCACGAATGACCAAATTGAAGTTACTAATGCTACTGAGCTGGTTCAGAGTTCCTCAACAGGTGAAATATGCGACAGTCCTCATCAGATCCTTGATGGAAAAAACTGCACACTAATAGATGCTCTATTGGGAGACCCTCAGTGTGATGGCTTCCAAAATAAGAAATGGGACCTTTTTGTTGAACGCAGCAAAGCCTACAGCAACTGTTACCCTTATGATGTGCCGGATTATGCCTCCCTTAGGTCACTAGTTGCCTCATCCGGCACACTGGAGTTTAACAATGAAAGCTTCAATTGGACTGGAGTCACTCAAAACGGAACAAGCTCTGCTTGCATAAGGAGATCAAAAAACAGTTTCTTTAGTAGATTGAATTGGTTGACCCACTTAAACTTCAAATACCCAGCATTGAACGTGACTATGCCAAACAATGAACAATTTGACAAATTGTACATTTGGGGGGTTCACCACCCGGGTACGGACAAAGACCAAATCTTCCTGTATGCTCAAGCATCAGGAAGAATCACAGTCTCTACCAAAAGAAGCCAACAAACTGTAATCCCGAATATCGGATCTAGACCCAGAGTAAGGAATATCCCTAGCAGAATAAGCATCTATTGGACAATAGTAAAACCGGGAGACATACTTTTGATTAACAGCACAGGGAATCTAATTGCTCCTAGGGGTTACTTCAAAATACGAAGTGGGAAAAGCTCAATAATGAGATCAGATGCACCCATTGGCAAATGCAATTCTGAATGCATCACTCCAAATGGAAGCATTCCCAATGACAAACCATTCCAAAATGTAAACAGGATCACATACGGGGCCTGTCCCAGATATGTTAAGCAAAGCACTCTGAAATTGGCAACAGGGATGCGAAATGTACCAGAGAAACAAACTAGAGGCATATTTGGCGCAATCGCGGGTTTCATAGAAAATGGTTGGGAGGGAATGGTGGATGGTTGGTACGGTTTCAGGCATCAAAATTCTGAGGGAAGAGGACAAGCAGCAGATCTCAAAAGCACTCAAGCAGCAATCGATCAAATCAATGGGAAGCTGAATAGATTGATCGGGAAAACCAACGAGAAATTCCATCAGATTGAAAAAGAATTCTCAGAAGTCGAAGGGAGAATTCAGGACCTTGAGAAATATGTTGAGGACACTAAAATAGATCTCTGGTCATACAACGCGGAGCTTCTTGTTGCCCTGGAGAACCAACATACAATTGATCTAACTGACTCAGAAATGAACAAACTGTTTGAAAAAACAAAGAAGCAACTGAGGGAAAATGCTGAGGATATGGGCAATGGTTGTTTCAAAATATACCACAAATGTAACAATGCATGCATAGGATCAATCAGAAATGGAACTTATGACCACGATGTATACAGAGATGAAGCATTAAACAACCGGTTTCAGATCAAGGGAGTTGAGCTGAAGTCAGGGTACAAGGATTGGATCCTATGGATTTCCTTTGCCATATCATGCTTTTTGCTTTGTGTTGCTTTGTTGGGGTTCATCATGTGGGCCTGCCAAAAAGGCAACATTAGGTGCAACATTTGCATTTGAGTGCATTAATTAAAAA----"/>
+                </data>
+
+
+    
+
+
+    
+
+
+    
+<map name="Uniform" >beast.math.distributions.Uniform</map>
+<map name="Exponential" >beast.math.distributions.Exponential</map>
+<map name="LogNormal" >beast.math.distributions.LogNormalDistributionModel</map>
+<map name="Normal" >beast.math.distributions.Normal</map>
+<map name="Beta" >beast.math.distributions.Beta</map>
+<map name="Gamma" >beast.math.distributions.Gamma</map>
+<map name="LaplaceDistribution" >beast.math.distributions.LaplaceDistribution</map>
+<map name="prior" >beast.math.distributions.Prior</map>
+<map name="InverseGamma" >beast.math.distributions.InverseGamma</map>
+<map name="OneOnX" >beast.math.distributions.OneOnX</map>
+
+
+<run id="mcmc" spec="MCMC" chainLength="5000000">
+    <state id="state" storeEvery="5000">
+        <tree id="Tree.t:Influenza-short" name="stateNode">
+            <taxonset id="TaxonSet.Influenza-short" spec="TaxonSet">
+                <alignment idref="Influenza-short"/>
+            </taxonset>
+        </tree>
+        <parameter id="kappa.s:Influenza-short" lower="0.0" name="stateNode">2.0</parameter>
+        <parameter id="gammaShape.s:Influenza-short" name="stateNode">1.0</parameter>
+        <parameter id="rho.t:Influenza-short" lower="0.0" name="stateNode" upper="1.0">0.01</parameter>
+        <parameter id="freqParameter.s:Influenza-short" dimension="4" lower="0.0" name="stateNode" upper="1.0">0.25</parameter>
+    </state>
+
+    <init id="RandomTree.t:Influenza-short" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:Influenza-short" taxa="@Influenza-short">
+        <populationModel id="ConstantPopulation0.t:Influenza-short" spec="ConstantPopulation">
+            <parameter id="randomPopSize.t:Influenza-short" name="popSize">1.0</parameter>
+        </populationModel>
+    </init>
+
+    <distribution id="posterior" spec="util.CompoundDistribution">
+        <distribution id="prior" spec="util.CompoundDistribution">
+            <distribution id="BirthDeathSkyContemporary.t:Influenza-short" spec="beast.evolution.speciation.BirthDeathSkylineModel" rho="@rho.t:Influenza-short" tree="@Tree.t:Influenza-short">
+                <parameter id="origin.t:Influenza-short" lower="0.0" name="origin" upper="Infinity">100.0</parameter>
+                <parameter id="reproductiveNumber.t:Influenza-short" dimension="5" lower="0.0" name="reproductiveNumber" upper="10.0">2.0</parameter>
+                <parameter id="becomeUninfectiousRate.t:Influenza-short" lower="0.0" name="becomeUninfectiousRate" upper="Infinity">1.0</parameter>
+                <parameter id="samplingProportion.t:Influenza-short" lower="0.0" name="samplingProportion" upper="1.0">0.01</parameter>
+            </distribution>
+            <prior id="becomeUninfectiousRatePriorContemp.t:Influenza-short" name="distribution" x="@becomeUninfectiousRate.t:Influenza-short">
+                <LogNormal id="LogNormalDistributionModel.3" meanInRealSpace="true" name="distr">
+                    <parameter id="RealParameter.14" estimate="false" name="M">52.0</parameter>
+                    <parameter id="RealParameter.15" estimate="false" name="S">1.0</parameter>
+                </LogNormal>
+            </prior>
+            <prior id="GammaShapePrior.s:Influenza-short" name="distribution" x="@gammaShape.s:Influenza-short">
+                <Exponential id="Exponential.0" name="distr">
+                    <parameter id="RealParameter.0" estimate="false" name="mean">1.0</parameter>
+                </Exponential>
+            </prior>
+            <prior id="KappaPrior.s:Influenza-short" name="distribution" x="@kappa.s:Influenza-short">
+                <LogNormal id="LogNormalDistributionModel.0" name="distr">
+                    <parameter id="RealParameter.1" estimate="false" name="M">1.0</parameter>
+                    <parameter id="RealParameter.2" estimate="false" name="S">1.25</parameter>
+                </LogNormal>
+            </prior>
+            <prior id="originPriorContemp.t:Influenza-short" name="distribution" x="@origin.t:Influenza-short">
+                <Uniform id="Uniform.6" name="distr" upper="Infinity"/>
+            </prior>
+            <prior id="reproductiveNumberPriorContemp.t:Influenza-short" name="distribution" x="@reproductiveNumber.t:Influenza-short">
+                <LogNormal id="LogNormalDistributionModel.4" name="distr">
+                    <parameter id="RealParameter.16" estimate="false" name="M">0.0</parameter>
+                    <parameter id="RealParameter.17" estimate="false" name="S">1.0</parameter>
+                </LogNormal>
+            </prior>
+            <prior id="rhoPriorContemp.t:Influenza-short" name="distribution" x="@rho.t:Influenza-short">
+                <LogNormal id="LogNormalDistributionModel.5" meanInRealSpace="true" name="distr">
+                    <parameter id="RealParameter.18" estimate="false" name="M">0.001</parameter>
+                    <parameter id="RealParameter.19" estimate="false" lower="0.0" name="S" upper="5.0">1.25</parameter>
+                </LogNormal>
+            </prior>
+        </distribution>
+        <distribution id="likelihood" spec="util.CompoundDistribution" useThreads="true">
+            <distribution id="treeLikelihood.Influenza-short" spec="ThreadedTreeLikelihood" data="@Influenza-short" tree="@Tree.t:Influenza-short">
+                <siteModel id="SiteModel.s:Influenza-short" spec="SiteModel" gammaCategoryCount="4" shape="@gammaShape.s:Influenza-short">
+                    <parameter id="mutationRate.s:Influenza-short" estimate="false" name="mutationRate">1.0</parameter>
+                    <parameter id="proportionInvariant.s:Influenza-short" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                    <substModel id="hky.s:Influenza-short" spec="HKY" kappa="@kappa.s:Influenza-short">
+                        <frequencies id="estimatedFreqs.s:Influenza-short" spec="Frequencies" frequencies="@freqParameter.s:Influenza-short"/>
+                    </substModel>
+                </siteModel>
+                <branchRateModel id="StrictClock.c:Influenza-short" spec="beast.evolution.branchratemodel.StrictClockModel">
+                    <parameter id="clockRate.c:Influenza-short" estimate="false" name="clock.rate">1.0</parameter>
+                </branchRateModel>
+            </distribution>
+        </distribution>
+    </distribution>
+
+    <operator id="KappaScaler.s:Influenza-short" spec="ScaleOperator" parameter="@kappa.s:Influenza-short" scaleFactor="0.5" weight="0.1"/>
+
+    <operator id="gammaShapeScaler.s:Influenza-short" spec="ScaleOperator" parameter="@gammaShape.s:Influenza-short" scaleFactor="0.5" weight="0.1"/>
+
+    <operator id="BDSKY_contemptreeScaler.t:Influenza-short" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:Influenza-short" weight="3.0"/>
+
+    <operator id="BDSKY_contemptreeRootScaler.t:Influenza-short" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:Influenza-short" weight="3.0"/>
+
+    <operator id="BDSKY_contempUniformOperator.t:Influenza-short" spec="Uniform" tree="@Tree.t:Influenza-short" weight="30.0"/>
+
+    <operator id="BDSKY_contempSubtreeSlide.t:Influenza-short" spec="SubtreeSlide" tree="@Tree.t:Influenza-short" weight="15.0"/>
+
+    <operator id="BDSKY_contempnarrow.t:Influenza-short" spec="Exchange" tree="@Tree.t:Influenza-short" weight="15.0"/>
+
+    <operator id="BDSKY_contempwide.t:Influenza-short" spec="Exchange" isNarrow="false" tree="@Tree.t:Influenza-short" weight="3.0"/>
+
+    <operator id="BDSKY_contempWilsonBalding.t:Influenza-short" spec="WilsonBalding" tree="@Tree.t:Influenza-short" weight="3.0"/>
+
+    <operator id="rhoScaler.t:Influenza-short" spec="ScaleOperator" parameter="@rho.t:Influenza-short" scaleFactor="0.75" weight="1.0"/>
+
+    <operator id="FrequenciesExchanger.s:Influenza-short" spec="DeltaExchangeOperator" delta="0.01" weight="0.1">
+        <parameter idref="freqParameter.s:Influenza-short"/>
+    </operator>
+
+    <logger id="tracelog" fileName="Influenza-short.log" logEvery="1000" model="@posterior" sanitiseHeaders="true" sort="smart">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+        <log idref="treeLikelihood.Influenza-short"/>
+        <log id="TreeHeight.t:Influenza-short" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:Influenza-short"/>
+        <log idref="kappa.s:Influenza-short"/>
+        <log idref="gammaShape.s:Influenza-short"/>
+        <log idref="BirthDeathSkyContemporary.t:Influenza-short"/>
+        <log idref="rho.t:Influenza-short"/>
+        <log idref="freqParameter.s:Influenza-short"/>
+    </logger>
+
+    <logger id="screenlog" logEvery="1000">
+        <log idref="posterior"/>
+        <log id="ESS.0" spec="util.ESS" arg="@posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+    </logger>
+
+    <logger id="treelog.t:Influenza-short" fileName="$(tree).trees" logEvery="5000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:Influenza-short" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:Influenza-short"/>
+    </logger>
+
+</run>
+
+</beast>
