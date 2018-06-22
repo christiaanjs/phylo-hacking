@@ -28,7 +28,7 @@
 <map name="OneOnX" >beast.math.distributions.OneOnX</map>
 
 
-<run id="mcmc" spec="MCMC" chainLength="5000000">
+<run id="mcmc" spec="MCMC" chainLength="10000000">
     <state id="state" storeEvery="5000">
         <tree id="Tree.t:Influenza-short" name="stateNode">
             <taxonset id="TaxonSet.Influenza-short" spec="TaxonSet">
@@ -148,7 +148,7 @@
         <log idref="prior"/>
     </logger>
 
-    <logger id="treelog.t:Influenza-short" fileName="$(tree).trees" logEvery="5000" mode="tree">
+    <logger id="treelog.t:Influenza-short" fileName="$(tree).trees" logEvery="1000" mode="tree">
         <log id="TreeWithMetaDataLogger.t:Influenza-short" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:Influenza-short"/>
     </logger>
 

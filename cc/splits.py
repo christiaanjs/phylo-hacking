@@ -38,6 +38,60 @@ class Split:
     
     def __hash__(self):
         return hash(self.get_children())
+
+def get_clade(x):
+    if isinstance(x, str):
+        return frozenset({ x })
+    elif isinstance(x, TreeNode):
+        return x.get_clade()
+    else:
+        assert False
+
+def node_to_string(x, child_format):
+    if isinstance(x, str):
+        return x
+    elif isinstance(x, TreeNode):
+        child1, child2 = x.get_children()
+        return child_format.format(str(child1), str(child2))
+    else:
+        assert False
+
+class TreeNode:
+    def __init__(self, child1, child2):
+        child1_clade = get_clade(child1)
+        child2_clade = get_clade(child2)
+
+        assert len(frozenset.intersection(child1_clade, child2_clade)) == 0
+        self._clade = frozenset.union(child1_clade, child2_clade)
+
+        child1_first = min(child1_clade)
+        child2_first = min(child2_clade)
+
+        if child1_first < child2_first:
+            self._child1 = child1
+            self._child2 = child2
+        else:
+            self._child2 = child1
+            self._child1 = child2
+        
+        
+    def get_clade(self):
+        return self._clade
+            
+    def get_children(self):
+        return self._child1, self._child2
+    
+    def __str__(self):
+        return node_to_string(self, '({0},{1})')
+    
+    def __eq__(self, other):
+        return self.get_children() == other.get_children()
+
+    def __repr__(self):
+        return node_to_string(self, 'TreeNode({0},{1})')
+    
+    def __hash__(self):
+        return hash(self.get_children())
     
 def get_splits(clade):
     n = len(clade)
