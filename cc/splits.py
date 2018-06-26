@@ -101,3 +101,32 @@ def get_splits(clade):
     for k in range(n-1):
         for combination in combinations(others, k):
             yield Split(clade, set(list(combination) + first_slice))
+
+def prod(xs):
+    res = 1.0
+    for x in xs:
+        res *= x
+    return res
+
+def get_split_p(clade, split, split_ps):
+    if clade in split_ps:
+        if split in split_ps[clade]:
+            return split_ps[clade][split]
+        else:
+            return 0.0
+    else:
+        return 0.0
+
+def tree_split_p(tree, split_ps):
+    if isinstance(tree, str):
+            return 1.0
+    else:
+        children = tree.get_children()
+        if all([isinstance(child, str) for child in children]):
+            return 1.0
+        else:
+            clade = tree.get_clade()
+            subtree_p_approxs = [tree_split_p(subtree, split_ps) for subtree in children]
+            split = Split(clade, get_clade(children[0]))
+            split_p = get_split_p(clade, split, split_ps)
+            return split_p*prod(subtree_p_approxs)
