@@ -1,4 +1,6 @@
 from itertools import combinations
+from random import choices
+from functools import reduce
 
 class Split:
     def __init__(self, parent, child):
@@ -45,7 +47,7 @@ def get_clade(x):
     elif isinstance(x, TreeNode):
         return x.get_clade()
     else:
-        assert False
+        raise ValueError('Invalid input to get_clade: {0}'.format(repr(x)))
 
 def node_to_string(x, child_format):
     if isinstance(x, str):
@@ -130,3 +132,46 @@ def tree_split_p(tree, split_ps):
             split = Split(clade, get_clade(children[0]))
             split_p = get_split_p(clade, split, split_ps)
             return split_p*prod(subtree_p_approxs)
+
+def sample_tree(clade, split_ps):
+    if len(clade) == 1:
+        return list(clade)[0] 
+    elif len(clade) == 2:
+        return TreeNode(*clade)
+    elif len(clade) > 2:
+        clade_split_ps = split_ps[clade]
+        splits = list(clade_split_ps.keys())
+        ps = list(clade_split_ps.values())
+        split = choices(splits, ps)[0]
+        return TreeNode(*[sample_tree(child_clade, split_ps) for child_clade in split.get_children()])
+    else: 
+        raise ValueError('Clade must not be empty')
+
+
+def split_dict_reduce(clades, clade_splits, function, dict_sequence, initial_dict=None):
+    res = {}
+    for clade in clades:
+        res[clade] = {}
+        for split in clade_splits[clade]:
+            clade_split_vals = [dict_[clade][split] for dict_ in dict_sequence]
+            initial = None if initial_dict is None else initial_dict[clade][split]
+            res[clade][split] = reduce(function, clade_split_vals, initial)
+    return res
+
+
+def split_dict_zip_apply(clades, clade_splits, function, dict_sequence):
+    res = {}
+    for clade in clades:
+        res[clade] = {}
+        for split in clade_splits[clade]:
+            clade_split_vals = [dict_[clade][split] for dict_ in dict_sequence]
+            res[clade][split] = function(clade_split_vals)
+    return res
+
+def split_dict_apply(clades, clade_splits, function, split_dict):
+    res = {}
+    for clade in clades:
+        res[clade] = {}
+        for split in clade_splits[clade]:
+            res[clade][split] = function(split_dict[clade][split])
+    return res
